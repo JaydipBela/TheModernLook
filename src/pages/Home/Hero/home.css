@@ -1,0 +1,120 @@
+.home-first-slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: white;
+  height: 100vh;
+  position: relative;
+  background-image: url('../../../assets/images/backgrounds/hero.jpg');
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.home-first-slider-content {
+  margin-top: -100px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.home-first-slider-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #DD7210;
+  margin-bottom: 10px;
+}
+
+.home-first-slider-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.home-first-slider-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  padding: 0 50px;
+}
+
+.home-first-shop-now-btn {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  background-color: #DD7210;
+  border: none;
+  padding: 5px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-first-shop-now-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-first-shop-now-btn .home-first-arrow {
+  position: relative;
+  font-size: 22px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.home-first-shop-now-btn:hover .home-first-arrow {
+  background-color: #DD7210;
+  color: white;
+  transform: rotate(360deg);
+}
+
+
+.home-first-slider-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.home-first-nav-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.home-first-nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home-first-nav-button.left {
+  margin-left: 20px;
+}
+
+.home-first-nav-button.right {
+  margin-right: 20px;
+}
