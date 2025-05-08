@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-// Fixed case sensitivity for Vercel deployment
-import HeroAbout from '../Home/HeroAbout/HeroAbout';
+// Using index.js to import HeroAbout component
+import HeroAbout from '../Home/HeroAbout';
 import ReviewSection from '../Home/ReviewSection/ReviewSection';
 import './About.css';
 import { IoMdSend } from "react-icons/io";
