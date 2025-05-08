@@ -8,10 +8,10 @@ import images from "../../../assets/images.js";
 
 const HeroAbout = () => {
   useEffect(() => {
-    // Function to check if we're on mobile
+
     const isMobile = window.innerWidth <= 768;
 
-    // Adjust animations for mobile
+  
     const xOffsetLeft = isMobile ? -50 : -100;
     const xOffsetRight = isMobile ? 50 : 100;
 
