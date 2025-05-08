@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './Hero'
-import HeroAbout from './heroAbout/HeroAbout'
+import HeroAbout from './HeroAbout/HeroAbout'
 import HomeHover from './HomeHover/HomeHover'
 import HomeProduct from './HomeProduct/HomeProduct'
 import HomeAnswer from './HomeAnswer/HomeAnswer'
