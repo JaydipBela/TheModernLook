@@ -49,7 +49,7 @@ import insta4 from  './images/backgrounds/Instagram-04.jpg';
 import insta5 from  './images/backgrounds/Instagram-05.jpg';
 import insta6 from  './images/backgrounds/Instagram-06.jpg';
 
-import Contact from  './images/backgrounds/Contact.jpg';
+import Contact from  './images/backgrounds/contact.jpg';
 
 import team1 from  './images/backgrounds/t1.jpg';
 import team2 from  './images/backgrounds/t2.jpg';
