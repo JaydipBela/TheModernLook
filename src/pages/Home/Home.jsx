@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Hero from './Hero'
 import HeroAbout from './HeroAbout/HeroAbout'
@@ -8,17 +9,19 @@ import ReviewSection from './ReviewSection/ReviewSection'
 import HomeBlog from './HomeBlog/HomeBlog'
 import HomeComport from './HomeComport/HomeComport'
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
-    <Hero/>
-    <HeroAbout/>
-    <HomeHover/>
-    <HomeProduct/>
-    <ReviewSection/>
-    <HomeAnswer/>
-    <HomeBlog/>
-    <HomeComport/>
+      <Hero />
+      <HeroAbout />
+      <HomeHover />
+      <HomeProduct />
+      <ReviewSection />
+      <HomeAnswer />
+      <HomeBlog />
+      <HomeComport />
     </>
   )
 }
+
+export default Home

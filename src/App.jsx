@@ -12,6 +12,7 @@ import Product from './pages/Shop/Product.jsx'
 import Cart from './pages/Cart/Cart.jsx'
 import { CartProvider } from './context/CartContext.jsx'
 
+
 const App = () => {
   return (
     <CartProvider>
