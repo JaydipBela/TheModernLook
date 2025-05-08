@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import HeroAbout from '../Home/heroAbout/HeroAbout';
+import HeroAbout from '../Home/HeroAbout/HeroAbout';
 import ReviewSection from '../Home/ReviewSection/ReviewSection';
 import './About.css';
 import { IoMdSend } from "react-icons/io";
