@@ -54,11 +54,11 @@ const HomeBlog = () => {
     }
   ];
 
-  // State for selected blog
+  
   const [selectedBlog, setSelectedBlog] = useState(blogData[0]);
   const [animate, setAnimate] = useState(false);
 
-  // Truncate text function
+  
   const truncateText = (text, maxLength) => {
     if (!text) return '';
     if (text.length <= maxLength) return text;
